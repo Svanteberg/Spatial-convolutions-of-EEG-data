@@ -44,7 +44,7 @@ As a measure of discontinuity, the Chebyshev distance D<sub>C</sub> was used. In
 
 <p align="center">D<sub>C</sub> = max(|x<sub>2</sub>-x<sub>1</sub>,y<sub>2</sub>-y<sub>1</sub>|) > 1</p>
 
-in the two-dimensional grid approximation. The sum of D<sub>C</sub> for all neighboring pairs in the one-dimensional array was used to assess the degree of discontinuity of a transformation
+in the two-dimensional grid approximation. The number of neighboring pairs in the one-dimensional array with D<sub>C</sub> > 1 was used to assess the degree of discontinuity of a transformation
 
 <p align="center">∑d<sub>k</sub></p>
 

@@ -48,6 +48,6 @@ in the two-dimensional grid approximation. The minimum filter size to cover the 
 
 <p align="center">max(max(|F<sub>1D</sub>(x<sub>ij</sub>)-F<sub>1D</sub>(x<sub>ik</sub>)|)), j≠k</p>
 
-where F<sub>1D</sub> is the transformation from two (or three) dimensions to one, i the position of an electrode in one dimension and j and k the positions of two-dimensional neighbors of i (all belonging to the same 3x3 matrix).
+where F<sub>1D</sub> is the transformation from two (or three) dimensions to one, i the electrode in the center of a unit circle and j and k two-dimensional neighbors of i (i.e., all belonging to the same 3x3 matrix).
 
 ## Results

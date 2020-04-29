@@ -6,6 +6,17 @@
 <img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/10-20_transform.png" width="40%">
 </p>
 
+<p align="center">
+<img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/col_orto.png" width="40%">
+</p>
+
+<p align="center">
+<img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/col_anti.png" width="40%">
+</p>
+
+<p align="center">
+<img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/tuh_order.png" width="40%">
+</p>
 
 ## Method
 

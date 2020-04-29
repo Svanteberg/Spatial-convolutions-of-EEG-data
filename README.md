@@ -46,7 +46,7 @@ As a measure of discontinuity, the Chebyshev distance D<sub>C</sub> was used. In
 
 in the two-dimensional grid approximation. The minimum filter size F<sub>min</sub> to cover the unit circle in all cases is calculated as
 
-<p align="center">F<sub>min</sub> = max(max(|F<sub>1D</sub>(x<sub>ij</sub>)-F<sub>1D</sub>(x<sub>ik</sub>)|)), j≠k</p>
+<p align="center">F<sub>min</sub> = max<sub>i</sub>(max<sub>j,k</sub>(|F<sub>1D</sub>(x<sub>ij</sub>)-F<sub>1D</sub>(x<sub>ik</sub>)|)), j≠k</p>
 
 where F<sub>1D</sub> is the transformation from two (or three) dimensions to one, i the electrode in the center of a unit circle and j and k are unique elements of the 3x3 matrix.
 

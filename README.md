@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/movie.gif" width="100%">
+<img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/movie.gif" width="50%">
 </p>
 
 ## Results

@@ -28,6 +28,8 @@
 <img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/movie.gif" width="50%">
 </p>
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+</p align="center">
+max(|x<sub>2</sub>-x<sub>1</sub>,y<sub>2</sub>-y<sub>1</sub>|) > 1
+</p>
 
 ## Results

@@ -46,6 +46,6 @@ As a measure of discontinuity, the Chebyshev distance was used. A discontinuity 
 
 in the two-dimensional grid approximation. The minimum filter size to cover the unit circle in all cases is calculated
 
-<p align="center">max(max|F<sub>1D</sub>(x<sub>ij</sub>)-F<sub>1D</sub>(x<sub>ik</sub>)|)), i≠j</p>
+<p align="center">max(max(|F<sub>1D</sub>(x<sub>ij</sub>)-F<sub>1D</sub>(x<sub>ik</sub>)|)), j≠k</p>
 
 ## Results

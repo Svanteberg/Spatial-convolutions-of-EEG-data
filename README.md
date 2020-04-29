@@ -44,7 +44,11 @@ As a measure of discontinuity, the Chebyshev distance D<sub>C</sub> was used. In
 
 <p align="center">D<sub>C</sub> = max(|x<sub>2</sub>-x<sub>1</sub>,y<sub>2</sub>-y<sub>1</sub>|) > 1</p>
 
-in the two-dimensional grid approximation. The minimum filter size F<sub>min</sub> to cover the unit circle in all cases is calculated as
+in the two-dimensional grid approximation. The sum of D<sub>C</sub> for all neighboring pairs in the one-dimensional array was used to assess the degree of discontinuity of a transformation
+
+<p align="center">∑d<sub>k</sub></p>
+
+The minimum filter size F<sub>min</sub> to cover the unit circle in all cases is calculated as
 
 <p align="center">F<sub>min</sub> = max<sub>i</sub>(max<sub>j,k</sub>(|F<sub>1D</sub>(x<sub>ij</sub>)-F<sub>1D</sub>(x<sub>ik</sub>)|)), j≠k</p>
 

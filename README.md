@@ -8,13 +8,13 @@ EEG data are usually presented visually as two-dimensional data, one spatial and
 <img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/10-20_transform.png" width="50%">
 </p>
 
-There are 21! ways of ordering the electrodes of a 21 electrode montage, making it hard to explore and find the optimal order. Finding orders were neighboring electrodes in three dimensions are placed as close as possible in one dimension may result in better results when using convolutions. Transforming by taking the electrodes columnwise, using the same direction in the column, results in some neighboring electrodes ending upp as one-dimensional neighbors:
+There are 21! ways of ordering the electrodes of a 21 electrode montage, making it hard to explore and find the optimal order. Finding orders were neighboring electrodes in three dimensions are placed as close as possible in one dimension may result in better results when using convolutions. Transforming by taking the electrodes columnwise, using the same direction in the column, results in some neighboring electrodes being parted and a filter of size 3 will miss a feature involving the electrodes:
 
 <p align="center">
 <img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/col_orto.png" width="100%">
 </p>
 
-However, changing the direction between columns give neighbors that are spaced:
+However, changing the direction between columns make the same electrodes one-dimensional neighbors:
 
 <p align="center">
 <img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/col_anti.png" width="100%">

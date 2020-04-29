@@ -2,7 +2,7 @@
 
 ## Introduction
 
-EEG data are usually presented visually as two-dimensional data, one spatial and one temporal dimension. The recording skalp electrodes measures the cortical electrical field from positions in a three-dimensional space, roughly corresponding to a half sphere. Presenting the data with one spatial dimension results in spatial discontinuities. This logically results in disruption of spatial invariant features, possibly making analysis by convolutions harder.
+EEG data are usually presented visually as two-dimensional data, one spatial and one temporal dimension. The recording skalp electrodes measures the cortical electrical field from positions in a three-dimensional space, roughly corresponding to a half sphere. Presenting the data with one spatial dimension results in spatial discontinuities. This logically results in disruption of spatial invariant features, possibly making analysis by convolutions inefficient.
 
 <p align="center">
 <img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/10-20_transform.png" width="50%">

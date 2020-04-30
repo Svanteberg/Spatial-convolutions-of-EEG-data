@@ -56,6 +56,13 @@ The minimum filter size F<sub>min</sub> to cover the unit circle in all cases is
 
 where F<sub>1D</sub> is the transformation from two (or three) dimensions to one, i the electrode in the center of a unit circle and j and k are unique elements of the 3x3 matrix.
 
-Using the above defined discontinuity measure, the ortho-columnwise transformation have 4, the anti-colmnwise 0 and the original ordering 18 discontinuities.
+Using the above defined discontinuity measure, the ortho-columnwise transformation have 4, the anti-colmnwise 0 and the original ordering 18 discontinuities. The minimum filter sizes are 11, 11 and 20, respectively.
 
+<p align="center">
+  |Order|Discontinuities|Minimum filter size|
+  |-----|---------------|-------------------|
+  |Ortho-columnwise|4|11|
+  |Anti-columnwise|0|11|
+  |Original|18|20|
+</p>
 ## Results

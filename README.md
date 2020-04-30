@@ -50,7 +50,7 @@ As a measure of discontinuity, the Chebyshev distance D<sub>C</sub> was used. In
 
 in the two-dimensional grid approximation. The number of neighboring pairs in the one-dimensional array with D<sub>C</sub> > 1 was used to assess the degree of discontinuity of a transformation
 
-<p align="center">∑<sub>k</sub>d<sub>k</sub>, d<sub>k</sub> = 1 if D<sub>C</sub> > 1 or else 0</p>
+<p align="center"><font size="+4">∑<font><sub>k</sub>d<sub>k</sub>, d<sub>k</sub> = 1 if D<sub>C</sub> > 1 or else 0</p>
 
 The minimum filter size F<sub>min</sub> to cover the unit circle in all cases is calculated as
 

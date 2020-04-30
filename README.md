@@ -8,19 +8,21 @@ EEG data are usually presented visually as two-dimensional data, one spatial and
 <img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/10-20_transform.png" width="50%">
 </p>
 
-There are 21! ≈ 5.1•10<sup>19</sup> ways of ordering the electrodes of a 21 electrode montage, making it hard to explore and finding the optimal order. Finding orders were neighboring electrodes in three dimensions are placed as close as possible in one dimension may result in better results when using convolutions. Transforming by taking the electrodes columnwise, using the same direction in the column, results in some neighboring electrodes being parted and a filter of size 3 will miss a feature involving the electrodes:
+There are 21! ≈ 5.1•10<sup>19</sup> ways of ordering the electrodes of a 21 electrode montage, making it hard to explore and finding the optimal order. Finding orders were neighboring electrodes in three dimensions are placed as close as possible in one dimension may result in better results when using convolutions.
+
+Transforming by taking the electrodes columnwise, using the same direction in the columns, results in some neighboring electrodes being parted and a filter of size 3 will miss a feature involving the electrodes (anti-columnwise):
 
 <p align="center">
 <img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/col_orto.png" width="100%">
 </p>
 
-However, changing the direction between columns make the same electrodes one-dimensional neighbors:
+However, changing the direction between columns make the same electrodes one-dimensional neighbors (ortho-columnwise):
 
 <p align="center">
 <img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/col_anti.png" width="100%">
 </p>
 
-Below is an example of just using the order in which the channels are stored automatically by the recording system, resulting in large discontinuities: 
+Below is an example of just using the order in which the channels are stored automatically by the recording system, resulting in large discontinuities (original): 
 
 <p align="center">
 <img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/tuh_order.png" width="100%">

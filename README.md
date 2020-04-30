@@ -66,3 +66,7 @@ Using the above defined discontinuity measure, the ortho-columnwise transformati
 
 
 ## Results
+
+<p align="center">
+<img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/results_old.png" width="100%">
+</p>

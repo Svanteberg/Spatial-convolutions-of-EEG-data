@@ -65,4 +65,9 @@ Using the above defined discontinuity measure, the ortho-columnwise transformati
 | Anti-columnwise | 0 | 11 |
 | Original | 18 | 20 |
 </p>
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 ## Results

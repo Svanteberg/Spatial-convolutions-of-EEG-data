@@ -10,13 +10,13 @@ EEG data are usually presented visually as two-dimensional data, one spatial and
 
 There are 21! ≈ 5.1•10<sup>19</sup> ways of ordering the electrodes of a 21 electrode montage, making it hard to explore and finding the optimal order. Finding orders were neighboring electrodes in three dimensions are placed as close as possible in one dimension may result in better results when using convolutions.
 
-Transforming by taking the electrodes columnwise, using the same direction in the columns, results in some neighboring electrodes being parted and a filter of size 3 will miss a feature involving the electrodes (anti-columnwise):
+Transforming by taking the electrodes columnwise, using the same direction in the columns, results in some neighboring electrodes being parted and a filter of size 3 will miss a feature involving the electrodes (ortho-columnwise):
 
 <p align="center">
 <img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/col_orto.png" width="100%">
 </p>
 
-However, changing the direction between columns make the same electrodes one-dimensional neighbors (ortho-columnwise):
+However, changing the direction between columns make the same electrodes one-dimensional neighbors (anti-columnwise):
 
 <p align="center">
 <img src="https://github.com/Svanteberg/Spatial-convolutions-of-EEG-data/blob/master/images/col_anti.png" width="100%">
@@ -55,5 +55,7 @@ The minimum filter size F<sub>min</sub> to cover the unit circle in all cases is
 <p align="center">F<sub>min</sub> = max<sub>i</sub>(max<sub>j,k</sub>(|F<sub>1D</sub>(x<sub>ij</sub>)-F<sub>1D</sub>(x<sub>ik</sub>)|)), j≠k</p>
 
 where F<sub>1D</sub> is the transformation from two (or three) dimensions to one, i the electrode in the center of a unit circle and j and k are unique elements of the 3x3 matrix.
+
+Using the above defined discontinuity measure, the ortho-columnwise transformation have 4, the anti-colmnwise 0 and the original ordering 18 discontinuities.
 
 ## Results

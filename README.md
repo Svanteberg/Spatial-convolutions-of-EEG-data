@@ -1,4 +1,4 @@
-# One-dimensional spatial convolutions of EEG data
+# One-dimensional spatial convolutions of EEG data (under construction)
 
 ## Introduction
 
